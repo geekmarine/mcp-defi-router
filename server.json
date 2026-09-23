@@ -9,10 +9,8 @@
   },
   "remotes": [
     {
-      "transport": {
-        "type": "streamable-http",
-        "url": "https://mcp-defi.datasnag.com/mcp"
-      }
+      "type": "streamable-http",
+      "url": "https://mcp-defi.datasnag.com/mcp"
     }
   ]
 }
