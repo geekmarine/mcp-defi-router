@@ -1,0 +1,15 @@
+{
+  "name": "mcp-defi-router",
+  "version": "1.0.0",
+  "description": "Serverless MCP DeFi Router on Cloudflare Workers",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.107.0"
+  }
+}
