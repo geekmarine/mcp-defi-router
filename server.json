@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2026-01-25/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/server.schema.json",
   "name": "io.github.geekmarine/mcp-defi-router",
   "description": "Autonomous Web3 DeFi intelligence router for real-time DEX pool depth, EVM contract security audits, and cross-chain bridge optimization.",
   "version": "1.0.0",
