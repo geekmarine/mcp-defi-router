@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2026-01-25/server.schema.json",
   "name": "io.github.geekmarine/mcp-defi-router",
   "description": "Autonomous Web3 DeFi intelligence router for real-time DEX pool depth, EVM contract security audits, and cross-chain bridge optimization.",
   "version": "1.0.0",
@@ -7,11 +7,12 @@
     "url": "https://github.com/geekmarine/mcp-defi-router",
     "source": "github"
   },
-  "transport": {
-    "type": "streamable-http",
-    "url": "https://mcp-defi.datasnag.com/mcp"
-  },
-  "capabilities": {
-    "tools": true
-  }
+  "remotes": [
+    {
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://mcp-defi.datasnag.com/mcp"
+      }
+    }
+  ]
 }
